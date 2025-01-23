@@ -13,7 +13,7 @@ let lastSeenAirdrops = new Set();
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   activeUsers.add(chatId);
-  bot.sendMessage(chatId, 'Welcome! You will now receive notifications about new airdrops from cryptorank.io/drophunting');
+  bot.sendMessage(chatId, 'Welcome! You will now receive notifications about new airdrops');
 });
 
 // Stop command handler
