@@ -1,0 +1,13 @@
+{
+  "name": "telegram-airdrop-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "puppeteer": "^21.5.2",
+    "dotenv": "^16.3.1"
+  }
+}
